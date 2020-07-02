@@ -1,0 +1,27 @@
+.Showcase {
+    background: #333 url('../../assets//showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.Showcase .ShowcaseContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* Overlay */
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+@media(max-width: 360px) {
+    .Showcase .ShowcaseContent {
+        margin-top: -25px;
+    }
+    .Showcase .ShowcaseContent h1{
+        font-size: 3rem;
+    }
+}

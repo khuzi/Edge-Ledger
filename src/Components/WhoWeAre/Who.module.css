@@ -1,0 +1,20 @@
+.Who {
+    display: flex;
+}
+
+.Who > div {
+    flex: 1;
+}
+
+.Who .WhoImg {
+    background: url('../../assets/people.jpg') no-repeat center center/cover;
+}
+
+@media(max-width: 500px) {
+    .Who {
+        display: block;
+    }
+    .Who .WhoImg {
+        height: 200px;
+    }
+}

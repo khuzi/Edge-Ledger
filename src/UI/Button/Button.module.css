@@ -1,0 +1,29 @@
+.ButtonPrimary {
+    color: #fff;
+    display: inline-block;
+    background: #93c52b;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.ButtonPrimary:hover {
+    background: #7ab436;
+}
+
+.ButtonDark {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.ButtonDark:hover {
+    opacity: 0.9;
+}

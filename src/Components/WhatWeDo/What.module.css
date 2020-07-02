@@ -1,0 +1,13 @@
+.Items{
+    display: flex;
+    padding: 1rem;
+}
+
+
+@media(max-width: 768px) {
+    .Items {
+        display: block;
+        padding: 1rem;
+        
+    }   
+}

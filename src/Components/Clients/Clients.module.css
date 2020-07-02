@@ -1,0 +1,18 @@
+.Items {
+    display: flex;
+    cursor: pointer;
+}
+
+.Items img {
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+
+
+@media(max-width: 500px) {
+    .Items img {
+        width: 15%;
+    }   
+}
+
