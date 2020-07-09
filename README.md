@@ -67,3 +67,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # Edge-Ledger
+
+### In order to run this file on your system
+### Type `yarn init`
+### Then Type `yarn start`
+The website is open on your browser and run on `locolhost:3000`
